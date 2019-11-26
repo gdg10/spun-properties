@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import styled from "styled-components";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import Property from "./Property";
+import Hero from "./Hero";
 
-function App() {
+const ViewPortPage = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgrey;
+  font-family: 'Oswald', sans-serif;
+`;
+
+const HalfHero = styled.div`
+  height: 50vh;
+  width: 100vw;
+  background-color: lightgrey;
+  font-family: 'Comfortaa', cursive;
+`;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavBar />
+
+      <HalfHero>
+        <Hero />
+      </HalfHero>
+
+      <ViewPortPage>
+        <Property />
+        <br />
+      </ViewPortPage>
+
+      <ViewPortPage></ViewPortPage>
+
+      <Footer />
+    </React.Fragment>
   );
-}
+};
 
 export default App;
