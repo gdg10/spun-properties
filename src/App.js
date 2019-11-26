@@ -1,23 +1,25 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Property from "./Property";
 import Hero from "./Hero";
+import checker from "./checkerboard-cross.png";
 
 const ViewPortPage = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: lightgrey;
-  font-family: 'Oswald', sans-serif;
+  background-color: white;
 `;
 
 const HalfHero = styled.div`
-  height: 50vh;
-  width: 100vw;
+  margin: 1vw;
+  height: 100px;
+  width: 98vw;
   background-color: lightgrey;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
+  background-image: url(${checker});
 `;
 
 const App = () => {
@@ -26,15 +28,14 @@ const App = () => {
       <NavBar />
 
       <HalfHero>
-        <Hero />
+          <Hero />
       </HalfHero>
 
       <ViewPortPage>
         <Property />
-        <br />
       </ViewPortPage>
 
-      <ViewPortPage></ViewPortPage>
+      <ViewPortPage />
 
       <Footer />
     </React.Fragment>

@@ -14,6 +14,21 @@ const Price = styled.h3`
 
 const Details = styled.p`
   text-align: left;
+  font-family: "Oswald", sans-serif;
+`;
+
+const DetailSmall = styled.p`
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  color: grey;
+`;
+
+const Description = styled.p`
+  text-align: left;
+`;
+
+const DescriptionBreak = styled.p`
+text-align: center;
 `;
 
 const Property = () => {
@@ -28,12 +43,18 @@ const Property = () => {
             <Price>$2,325/mo</Price>
             <Details>1 bd | 1ba | 387 sqft </Details>
             <Details>72 E 7th St # 3RW, New York, NY 10003</Details>
-            <Details>House for Sale</Details>
+            <DetailSmall>House for Sale</DetailSmall>
             <ButtonToolbar>
               <Button variant="primary">Apply Now</Button>
               <Button variant="outline-secondary">Request a Tour</Button>
             </ButtonToolbar>
-            <Details>
+            <PropertyTable />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+           <DescriptionBreak>_</DescriptionBreak>
+            <Description>
               Beautiful 1st Floor Unit of a duplex, ready to MOVE-IN in a
               desirable Northeast Philadelphia (Philadelphia Mills
               neighborhood). Minutes drive from major arteries (Route 1 anf 95).
@@ -43,8 +64,7 @@ const Property = () => {
               (washer+dryer included). New Gas heater and A/C will be installed
               within days. 1 parking space in the back of the unit. Owner pays
               1/2 water
-            </Details>
-            <PropertyTable />
+            </Description>
           </Col>
         </Row>
       </Container>

@@ -10,7 +10,7 @@ import {
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  font-family: "Yanone Kaffeesatz", sans-serif;
+font-family: 'Comfortaa', cursive;
 `;
 
 const NavBar = () => {
@@ -35,10 +35,6 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Navbar>
     </Wrapper>
