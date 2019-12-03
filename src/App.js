@@ -5,7 +5,16 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Property from "./Property";
 import Hero from "./Hero";
-import checker from "./checkerboard-cross.png";
+import Contact from "./Contact";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+  Container
+} from "react-bootstrap";
 
 const ViewPortPage = styled.div`
   height: 100vh;
@@ -13,30 +22,15 @@ const ViewPortPage = styled.div`
   background-color: white;
 `;
 
-const HalfHero = styled.div`
-  margin: 1vw;
-  height: 100px;
-  width: 98vw;
-  background-color: lightgrey;
-  font-family: "Comfortaa", cursive;
-  background-image: url(${checker});
-`;
-
 const App = () => {
   return (
     <React.Fragment>
       <NavBar />
-
-      <HalfHero>
-          <Hero />
-      </HalfHero>
-
-      <ViewPortPage>
+      <Container>
+        <Hero />
         <Property />
-      </ViewPortPage>
-
-      <ViewPortPage />
-
+        <Contact />
+      </Container>
       <Footer />
     </React.Fragment>
   );

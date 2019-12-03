@@ -8,7 +8,6 @@ import house4 from "./HousePics/house4.jpg";
 
 const PropertyImages = () => {
     return (
-        
         <Carousel>
             <Carousel.Item>
                 <img
