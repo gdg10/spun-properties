@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   font-family: "Oswald", sans-serif;
   margin-top: 8%;
+  font-size: 1em;
 `;
 
 const PropertyTable = () => {
@@ -14,27 +15,15 @@ const PropertyTable = () => {
         <tbody>
           <tr>
             <td>Date Available</td>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <td>Type</td>
-            <td>Jacob</td>
-          </tr>
-          <tr>
-            <td>Cooling</td>
-            <td>Sue</td>
+            <td>12/1/19</td>
           </tr>
           <tr>
             <td>Heating</td>
-            <td>Sue</td>
+            <td>Forced Air</td>
           </tr>
           <tr>
-            <td>Pets</td>
-            <td>Sue</td>
-          </tr>
-          <tr>
-            <td>Parking</td>
-            <td>Sue</td>
+            <td>Cooling</td>
+            <td>Forced Air</td>
           </tr>
         </tbody>
       </Table>
