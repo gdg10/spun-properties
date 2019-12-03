@@ -7,20 +7,8 @@ import Property from "./Property";
 import Hero from "./Hero";
 import Contact from "./Contact";
 import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
   Container
 } from "react-bootstrap";
-
-const ViewPortPage = styled.div`
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-`;
 
 const App = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, ButtonToolbar, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import checker from "./checkerboard-cross.png";
 import styled from "styled-components";
 
