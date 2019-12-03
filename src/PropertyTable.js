@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   font-family: "Oswald", sans-serif;
-  margin-top: 8%;
+  margin-top: 20px;
   font-size: 1em;
 `;
 

@@ -3,14 +3,15 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Wrapper = styled.div`
-    hieght: 50px;
+    margin-top: 20px;
+    hieght: 60px;
     width: 100vw;
     background-color: grey;
     text-align: center;
     font-family: "Oswald", sans-serif;
     color: lightgrey;
     font-weight: lighter;
-    line-hieght: 50px;
+    line-hieght: 60px;
 `;
 
 const Footer = () => {

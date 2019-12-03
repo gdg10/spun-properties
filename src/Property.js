@@ -30,6 +30,7 @@ const DetailSmall = styled.p`
 `;
 
 const Description = styled.p`
+  margin-top: 20px;
   text-align: left;
 `;
 
@@ -59,7 +60,6 @@ const Property = () => {
           </Row>
           <Row>
             <Col>
-              <DescriptionBreak>_</DescriptionBreak>
               <Description>
                 Beautiful 1st Floor Unit of a duplex, ready to MOVE-IN in a
                 desirable Northeast Philadelphia (Philadelphia Mills
