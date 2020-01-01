@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Property from "./Property";
 import Hero from "./Hero";
+import About from "./About";
 import Contact from "./Contact";
 import {
   Container
@@ -16,6 +17,7 @@ const App = () => {
       <NavBar />
       <Container>
         <Hero />
+        <About />
         <Property />
         <Contact />
       </Container>
