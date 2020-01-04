@@ -1,22 +1,20 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import styled from "styled-components";
-
-const Wrapper = styled.div``;
+//import styled from "styled-components";
 
 const Contact = () => {
   return (
-    <Wrapper>
-      <Row>
-        <Col>
+    <Row>
+      <Col>
+        <a name="contact">
           <h4>Contact:</h4>
-          <p>
-            For all inquires, contact Eddie Grube:{" "}
-            <a href="tel:908-329-5619">908-329-5619</a>
-          </p>
-        </Col>
-      </Row>
-    </Wrapper>
+        </a>
+        <p>
+          For all inquires, contact Eddie Grube:{" "}
+          <a href="tel:908-329-5619">908-329-5619</a>
+        </p>
+      </Col>
+    </Row>
   );
 };
 

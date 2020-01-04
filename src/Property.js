@@ -5,10 +5,6 @@ import PropertyTable from "./PropertyTable";
 import styled from "styled-components";
 import heroImg from "./heroPic.JPG";
 
-const Wrapper = styled.div`
-  text-align: center;
-`;
-
 const Price = styled.h3`
   text-align: left;
 `;
@@ -36,7 +32,7 @@ const HeroPic = styled.img`
 
 const Property = () => {
   return (
-    <Wrapper>
+    <React.Fragment>
       <Row>
         <Col sm={12}>
           <HeroPic alt='hero' src={heroImg} />
@@ -72,7 +68,7 @@ const Property = () => {
           </Description>
         </Col>
       </Row>
-    </Wrapper>
+      </React.Fragment>
   );
 };
 
