@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown
-} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 `;
 
 const NavBar = () => {
@@ -21,7 +17,9 @@ const NavBar = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <NavDropdown title="Properties" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">1508 Bushkill St, Easton, PA 18042</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">
+                1508 Bushkill St, Easton, PA 18042
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

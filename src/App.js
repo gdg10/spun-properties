@@ -7,9 +7,7 @@ import Property from "./Property";
 import Hero from "./Hero";
 import About from "./About";
 import Contact from "./Contact";
-import {
-  Container
-} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const App = () => {
   return (

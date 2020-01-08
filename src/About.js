@@ -10,13 +10,8 @@ const InfoPoint = styled.p`
 
 const About = () => {
   return (
-    <React.Fragment>
+    <a name="about">
       <Row>
-        <Col xs={12}>
-        <a name="about">
-          <h4>About:</h4>
-        </a>
-        </Col>
         <Col lg={4} md={6} sm={12}>
           <InfoPoint>
             We work with Real Estate agents & home owners to make houses ready
@@ -49,7 +44,7 @@ const About = () => {
           </InfoPoint>
         </Col>
       </Row>
-    </React.Fragment>
+    </a>
   );
 };
 

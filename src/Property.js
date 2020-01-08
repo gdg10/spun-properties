@@ -25,19 +25,9 @@ const Description = styled.p`
   text-align: left;
 `;
 
-const HeroPic = styled.img`
-  width: 100%;
-  margin-bottom: 20px;
-`;
-
 const Property = () => {
   return (
     <React.Fragment>
-      <Row>
-        <Col sm={12}>
-          <HeroPic alt='hero' src={heroImg} />
-        </Col>
-      </Row>
       <Row>
         <Col sm={12} xs={12} md={9} lg={9}>
           <PropertyImages />
@@ -68,7 +58,7 @@ const Property = () => {
           </Description>
         </Col>
       </Row>
-      </React.Fragment>
+    </React.Fragment>
   );
 };
 

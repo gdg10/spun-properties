@@ -1,31 +1,21 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import checker from "./checkerboard-cross.png";
+import heroImg from "./SpunPropertiesHeader.jpg";
 import styled from "styled-components";
 
-const Title = styled.h1`
-  text-align: center;
-  font-family: "Comfortaa", cursive;
-  line-height: 100px;
-  font-weight: bold;
-`;
-
-const HalfHero = styled.div`
-  font-family: "Comfortaa", cursive;
-  background-image: url(${checker});
-  margin-top: 20px;
+const HeroPic = styled.img`
+  width: 100%;
   margin-bottom: 20px;
+  margin-top: 20px;
 `;
 
 const Hero = () => {
   return (
-    <HalfHero>
-      <Row>
-        <Col>
-          <Title>Spun Properties</Title>
-        </Col>
-      </Row>
-    </HalfHero>
+    <Row>
+      <Col sm={12}>
+        <HeroPic alt="hero" src={heroImg} />
+      </Col>
+    </Row>
   );
 };
 
