@@ -38,7 +38,7 @@ const Property = () => {
           <Price>$250,000</Price>
           <Details>3 bd | 1.5ba | 1,734 sqft </Details>
           <Details>1508 Bushkill St, Easton, PA 18042</Details>
-          <DetailSmall>Listed by: Brendan Grube</DetailSmall>
+          {/* <DetailSmall>Listed by: Brendan Grube</DetailSmall> */}
           <DetailSmall>House for Sale</DetailSmall>
           <ButtonToolbar>
             <Button variant="primary">Apply Now</Button>
