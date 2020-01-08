@@ -30,7 +30,9 @@ const Property = () => {
     <React.Fragment>
       <Row>
         <Col sm={12} xs={12} md={9} lg={9}>
-          <PropertyImages />
+          <a name="bushkill">
+            <PropertyImages />
+          </a>
         </Col>
         <Col Col sm={12} xs={12} md={3} lg={3}>
           <Price>$250,000</Price>
@@ -43,9 +45,7 @@ const Property = () => {
           </ButtonToolbar>
           <PropertyTable />
         </Col>
-      </Row>
-      <Row>
-        <Col>
+        <Col Col sm={12} xs={12} md={12} lg={12}>
           <Description>
             Beautiful 1st Floor Unit of a duplex, ready to MOVE-IN in a
             desirable Northeast Philadelphia (Philadelphia Mills neighborhood).

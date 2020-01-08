@@ -11,11 +11,13 @@ const HeroPic = styled.img`
 
 const Hero = () => {
   return (
-    <Row>
-      <Col sm={12}>
-        <HeroPic alt="hero" src={heroImg} />
-      </Col>
-    </Row>
+    <a name="hero">
+      <Row>
+        <Col sm={12}>
+          <HeroPic alt="hero" src={heroImg} />
+        </Col>
+      </Row>
+    </a>
   );
 };
 
