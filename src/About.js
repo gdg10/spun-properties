@@ -4,22 +4,22 @@ import styled from "styled-components";
 import spacer from "./heroPic.JPG";
 
 const InfoPoint = styled.p`
-  margin: 0px;
+  margin: 0% 8% 0% 8%;
   color: dimgray;
   text-align: justify;
-  padding: 0px 40px 40px 0px;
+  padding: 0px 0px 40px 0px;
 `;
 
 const AccentPoint = styled.h3`
   margin: 0px;
-  text-align: left;
+  text-align: center;
   padding: 20px 0px 0px 0px;
   color: purple;
   font-family: "Comfortaa", cursive;
 `;
 
 const SpacerImage = styled.p`
-  text-align: left;
+  text-align: center;
   margin: 20px 0px 20px 0px;
   padding: 0px;
   color: orange;
