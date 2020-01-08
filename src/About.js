@@ -7,19 +7,22 @@ const InfoPoint = styled.p`
   margin: 0px;
   color: dimgray;
   text-align: justify;
-  padding: 0px 5px 40px 5px;
+  padding: 0px 40px 40px 0px;
 `;
 
 const AccentPoint = styled.h3`
   margin: 0px;
-  text-align: center;
+  text-align: left;
   padding: 20px 0px 0px 0px;
+  color: purple;
+  font-family: "Comfortaa", cursive;
 `;
 
 const SpacerImage = styled.p`
-  text-align: center;
-  margin: 10px 0px 10px 0px;
+  text-align: left;
+  margin: 20px 0px 20px 0px;
   padding: 0px;
+  color: orange;
 `;
 
 const About = () => {
@@ -28,7 +31,7 @@ const About = () => {
       <Row>
         <Col lg={4} md={6} sm={12}>
           <AccentPoint>Fast Sales</AccentPoint>
-          <SpacerImage>■</SpacerImage>
+          <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             We work with real estate agents & home owners to make houses ready
             for quick sale. Our spun team can paint, change fixtures, faucets,
@@ -38,7 +41,7 @@ const About = () => {
         </Col>
         <Col lg={4} md={6} sm={12}>
           <AccentPoint>Free Marketing</AccentPoint>
-          <SpacerImage>■</SpacerImage>
+          <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             When an agent uses spundesign to make the house sell ready, we put
             pictures and the link to the agent on spunproperties for free. Extra
@@ -47,10 +50,10 @@ const About = () => {
         </Col>
         <Col lg={4} md={6} sm={12}>
           <AccentPoint>Dependable Name</AccentPoint>
-          <SpacerImage>■</SpacerImage>
+          <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
-            You’ll know a spun Property when you see our signature sign next the
-            Real Estate lawn sign. When buyers drive by, they know the house
+            You’ll know a Spun Property when you see our signature sign next the
+            real estate lawn sign. When buyers drive by, they know the house
             will be beautiful inside.
           </InfoPoint>
         </Col>

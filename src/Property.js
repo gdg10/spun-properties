@@ -29,6 +29,9 @@ const Property = () => {
   return (
     <React.Fragment>
       <Row>
+        <Col sm={12} xs={12} md={12} lg={12}>
+          <h4>Properties:</h4>
+        </Col>
         <Col sm={12} xs={12} md={9} lg={9}>
           <a name="bushkill">
             <PropertyImages />

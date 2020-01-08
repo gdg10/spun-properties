@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const HeroPic = styled.img`
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 20px;
 `;
 
