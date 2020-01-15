@@ -3,7 +3,6 @@ import { Row, Col, ButtonToolbar, Button } from "react-bootstrap";
 import PropertyImages from "./PropertyImages";
 import PropertyTable from "./PropertyTable";
 import styled from "styled-components";
-import heroImg from "./heroPic.JPG";
 
 const Price = styled.h3`
   text-align: left;
