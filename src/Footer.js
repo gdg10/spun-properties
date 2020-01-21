@@ -22,7 +22,7 @@ const Footer = () => {
           <Col>Spun Properties ©</Col>
           <Col>
             Website by{" "}
-            <a
+            <a style={{color: "white"}}
               href="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click"
               target="_blank"
             >
