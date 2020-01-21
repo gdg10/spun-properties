@@ -32,9 +32,9 @@ const About = () => {
           <AccentPoint>Fast Sales</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
-            We work with real estate agents & home owners to make houses ready
-            for quick sale. Our spun team can paint, change fixtures, faucets,
-            flooring or any quick remodeling needed then home stage it for a
+            We work with Real Estate agents & home owners to make houses ready
+            for quick sale. Our Spun team can paint, change fixtures, faucets,
+            flooring or any quick remodeling needed then home stages it for a
             quick high value sell.
           </InfoPoint>
         </Col>
@@ -42,9 +42,9 @@ const About = () => {
           <AccentPoint>Free Marketing</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
-            When an agent uses spundesign to make the house sell ready, we put
-            pictures and the link to the agent on spunproperties for free. Extra
-            marketing!
+            When an agent uses Spundesign to make the house sell ready, we put
+            pictures and the link to the agent on Spunproperties for free. Extra
+            marketing.
           </InfoPoint>
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -52,7 +52,7 @@ const About = () => {
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             You’ll know a Spun Property when you see our signature sign next the
-            real estate lawn sign. When buyers drive by, they know the house
+            Real Estate lawn sign. When buyers drive by, they know the house
             will be beautiful inside.
           </InfoPoint>
         </Col>

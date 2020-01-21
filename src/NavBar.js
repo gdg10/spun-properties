@@ -16,11 +16,8 @@ const NavBar = () => {
           <Nav className="mr-auto">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <NavDropdown title="Properties" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#bushkill">
-                1508 Bushkill St, Easton, PA 18042
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#bushkill">Properties</Nav.Link>
+            <Nav.Link href="#bushkill">Agents</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

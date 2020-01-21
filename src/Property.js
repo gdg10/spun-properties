@@ -46,14 +46,15 @@ const Property = () => {
         </Col>
         <Col Col sm={12} xs={12} md={12} lg={12}>
           <Description>
-            Beautiful 1st Floor Unit of a duplex, ready to MOVE-IN in a
-            desirable Northeast Philadelphia (Philadelphia Mills neighborhood).
-            Minutes drive from major arteries (Route 1 anf 95). First Floor Unit
-            features Living Room, Dining Area, Kitchen (all working appliances),
-            2 Bedrooms, Full Bathroom. Carpeted flooring and all New Windows
-            installed. Basement has Large Laundry Area (washer+dryer included).
-            New Gas heater and A/C will be installed within days. 1 parking
-            space in the back of the unit. Owner pays 1/2 water.
+            Move-in ready, this newly renovated and updated classic colonial is
+            located on a highly desirable, tree-lined side street. Some of the
+            outstanding finishes include a totally new kitchen, updated
+            bathrooms, refinished hardwood floors, new central air system,
+            furnace and water heater. Large bedrooms, brick fireplace, first
+            floor laundry room, den and a freshly painted basement makes this an
+            attractive home. The property has off-street parking, a covered
+            patio and a large back yard for pets or gardening. Owner may help
+            with closing costs.
           </Description>
         </Col>
       </Row>
