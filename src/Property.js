@@ -35,9 +35,9 @@ const Property = () => {
         </Col>
         <Col Col sm={12} xs={12} md={3} lg={3}>
           <Price>$250,000</Price>
-          <DetailSmall>3 bd | 1.5ba | 1,734 sqft | Active</DetailSmall>
+          <Details>3 bd | 1.5ba | 1,734 sqft | Active</Details>
           <Details>1508 Bushkill St, Easton, PA 18042</Details>
-          <Details>Listing Agent Brendan Grube</Details>
+          <DetailSmall>Listing Agent Brendan Grube</DetailSmall>
           <ButtonToolbar>
             <Button variant="primary">Contact Agent</Button>
           </ButtonToolbar>
