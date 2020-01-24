@@ -1,16 +1,19 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import styled from "styled-components";
+import "./app.css";
 
 const Wrapper = styled.div`
-  font-family: "Comfortaa", cursive;
+  font-family: 'GeosansLight', sans-serif;
+  font-weight:bold;
+  font-size: 1.25em;
 `;
 
 const NavBar = () => {
   return (
     <Wrapper>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#hero">Spun Properties</Navbar.Brand>
+        <Navbar.Brand style={{fontSize: "1.5em"}}href="#hero">Spun Properties</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

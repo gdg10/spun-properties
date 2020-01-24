@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+import "./app.css";
 
 const InfoPoint = styled.p`
   margin: 0% 8% 0% 8%;
@@ -14,7 +15,8 @@ const AccentPoint = styled.h3`
   text-align: center;
   padding: 20px 0px 0px 0px;
   color: purple;
-  font-family: "Comfortaa", cursive;
+  font-family: 'GeosansLight', sans-serif;
+  font-weight:bold;
 `;
 
 const SpacerImage = styled.p`
