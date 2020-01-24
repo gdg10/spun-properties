@@ -19,10 +19,19 @@ const Footer = () => {
     <Wrapper>
       <Container>
         <Row>
-          <Col style={{textAlign: "left"}}>Spunproperties ©</Col>
-          <Col style={{textAlign: "right"}}>
+          <Col style={{ textAlign: "left" }}>
+            <a
+              style={{ color: "white" }}
+              href="https://www.spundesign.com"
+              target="_blank"
+            >
+              Spundesign ©
+            </a>
+          </Col>
+          <Col style={{ textAlign: "right" }}>
             Website by{" "}
-            <a style={{color: "white"}}
+            <a
+              style={{ color: "white" }}
               href="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click"
               target="_blank"
             >
