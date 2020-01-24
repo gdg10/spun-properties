@@ -15,9 +15,12 @@ const Contact = () => {
         <a name="contact">
           <ContactHeader>Contact:</ContactHeader>
         </a>
+        <p>For any inquires, contact Amy Bloom:</p>
         <p>
-          For all inquires, contact Eddie Grube:{" "}
-          <a href="tel:908-329-5619">908-329-5619</a>
+          <a href="amy@spundesign.com">amy@spundesign.com</a>
+        </p>
+        <p>
+          <a href="tel:908-329-5619">484-951-2600</a>
         </p>
       </Col>
     </Row>
