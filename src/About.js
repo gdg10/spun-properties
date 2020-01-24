@@ -15,8 +15,8 @@ const AccentPoint = styled.h3`
   text-align: center;
   padding: 20px 0px 0px 0px;
   color: purple;
-  font-family: 'GeosansLight', sans-serif;
-  font-weight:bold;
+  font-family: "GeosansLight", sans-serif;
+  font-weight: bold;
 `;
 
 const SpacerImage = styled.p`
@@ -36,8 +36,8 @@ const About = () => {
           <InfoPoint>
             We work with Real Estate agents & home owners to make houses ready
             for quick sale. Our Spun team can paint, change fixtures, faucets,
-            flooring or any quick remodeling needed then home stages it for a
-            quick high value sell.
+            flooring or any quick remodeling needed and home-stage it with
+            Spundesign for a quick high value sell.
           </InfoPoint>
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -45,8 +45,8 @@ const About = () => {
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             When an agent uses Spundesign to make the house sell ready, we put
-            pictures and the link to the agent on Spunproperties for free. Extra
-            marketing.
+            pictures and the link to the agent on Spunproperties for free.
+            That's double the marketing for agents.
           </InfoPoint>
         </Col>
         <Col lg={4} md={6} sm={12}>
@@ -54,9 +54,13 @@ const About = () => {
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             You’ll know a Spun Property when you see our signature sign next the
-            Real Estate lawn sign. When buyers drive by, they know the house
+            Real Estate lawn sign. When buyers drive by, they'll know the house
             will be beautiful inside.
           </InfoPoint>
+        </Col>
+        <Col lg={12} md={12} sm={12}>
+          <AccentPoint>Featured Home</AccentPoint>
+          <SpacerImage>■■■</SpacerImage>
         </Col>
       </Row>
     </a>
