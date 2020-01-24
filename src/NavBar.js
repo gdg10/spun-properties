@@ -20,7 +20,6 @@ const NavBar = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#bushkill">Properties</Nav.Link>
-            <Nav.Link href="#bushkill">Agents</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
