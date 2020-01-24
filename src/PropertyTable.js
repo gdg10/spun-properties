@@ -18,8 +18,8 @@ const PropertyTable = () => {
             <td>12/1/19</td>
           </tr>
           <tr>
-            <td>Heating</td>
-            <td>Forced Air</td>
+            <td>Square Footage</td>
+            <td>tbd</td>
           </tr>
           <tr>
             <td>Cooling</td>
@@ -45,9 +45,6 @@ export default PropertyTable;
 // Cats, large dogs, small dogs
 // Parking:
 // No Data
-// Laundry:
 // Shared
 // Deposit & fees:
 // $995
-// Price/sqft:
-// $1

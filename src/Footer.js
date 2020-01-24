@@ -19,7 +19,7 @@ const Footer = () => {
     <Wrapper>
       <Container>
         <Row>
-          <Col>Spun Properties ©</Col>
+          <Col>Spunproperties ©</Col>
           <Col>
             Website by{" "}
             <a style={{color: "white"}}
