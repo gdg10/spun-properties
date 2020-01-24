@@ -4,9 +4,10 @@ import styled from "styled-components";
 import "./app.css";
 
 const ContactHeader = styled.h4`
+  margin-top: 15px;
   font-family: "GeosansLight", sans-serif;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.45em;
 `;
 const Contact = () => {
   return (

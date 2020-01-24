@@ -32,19 +32,3 @@ const PropertyTable = () => {
 };
 
 export default PropertyTable;
-
-// Date available:
-// 12/1
-// Type:
-// Apartment
-// Cooling:
-// Other
-// Heating:
-// Forced air
-// Pets:
-// Cats, large dogs, small dogs
-// Parking:
-// No Data
-// Shared
-// Deposit & fees:
-// $995

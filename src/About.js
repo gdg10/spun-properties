@@ -23,7 +23,7 @@ const SpacerImage = styled.p`
   text-align: center;
   margin: 20px 0px 20px 0px;
   padding: 0px;
-  color: orange;
+  color: #fc7303;
 `;
 
 const About = () => {
