@@ -19,8 +19,8 @@ const Footer = () => {
     <Wrapper>
       <Container>
         <Row>
-          <Col>Spunproperties ©</Col>
-          <Col>
+          <Col style={{textAlign: "left"}}>Spunproperties ©</Col>
+          <Col style={{textAlign: "right"}}>
             Website by{" "}
             <a style={{color: "white"}}
               href="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click"
