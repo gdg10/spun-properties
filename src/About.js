@@ -7,7 +7,7 @@ export const InfoPoint = styled.p`
   margin: 0% 8% 0% 8%;
   //color: dimgray;
   text-align: justify;
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
   font-family: "GeosansLight", sans-serif;
   font-size: 1.25em;
 `;
