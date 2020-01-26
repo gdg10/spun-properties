@@ -10,18 +10,27 @@ import Contact from "./Contact";
 import { Container } from "react-bootstrap";
 import "./app.css";
 
+
+const MasterWrapper = styled.div`
+  background-color: white;
+`;
+
+const conSty = {
+  backgroundColor: "white"
+}
+
 const App = () => {
   return (
-    <React.Fragment>
+    <MasterWrapper>
       <NavBar />
-      <Container>
+      <Container style={conSty} >
         <Hero />
         <About />
         <Property />
         <Contact />
       </Container>
       <Footer />
-    </React.Fragment>
+    </MasterWrapper>
   );
 };
 
