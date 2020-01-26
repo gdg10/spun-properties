@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
+import "./app.css";
 
 const Wrapper = styled.div`
   margin-top: 20px;
@@ -9,6 +10,7 @@ const Wrapper = styled.div`
   background-color: grey;
   text-align: center;
   font-family: "Oswald", sans-serif;
+  font-family: "GeosansLight", sans-serif;
   color: lightgrey;
   font-weight: lighter;
   line-hieght: 60px;
@@ -25,7 +27,7 @@ const Footer = () => {
               href="https://www.spundesign.com"
               target="_blank"
             >
-              Spundesign ©
+              Spundesign©
             </a>
           </Col>
           <Col style={{ textAlign: "right" }}>

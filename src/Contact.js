@@ -2,25 +2,23 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import "./app.css";
+import { AccentPoint, SpacerImage, InfoPoint } from "./About";
 
-const ContactHeader = styled.h4`
-  margin-top: 15px;
-  font-family: "GeosansLight", sans-serif;
-  font-weight: bold;
-  font-size: 1.45em;
-`;
+const centeredParagraph = styled.p``;
+
 const Contact = () => {
   return (
     <Row>
-      <Col>
-        <ContactHeader id='contact'>Contact:</ContactHeader>
-        <p>For any inquires, contact Amy Bloom:</p>
-        <p>
-          <a href="amy@spundesign.com">amy@spundesign.com</a>
-        </p>
-        <p>
-          <a href="tel:908-329-5619">484-951-2600</a>
-        </p>
+      <Col lg={12} md={12} sm={12}>
+        <AccentPoint id="contact">Contact</AccentPoint>
+        <SpacerImage>■■■</SpacerImage>
+        <InfoPoint style={{ textAlign: "center", fontFamily: "GeosansLight, sans-serif" }}>
+        For all inquires, contact Amy Bloom
+          <p>
+            <a href="amy@spundesign.com">amy@spundesign.com</a>{" "}|{" "}
+            <a href="tel:484-951-2600">484-951-2600</a>
+          </p>
+        </InfoPoint>
       </Col>
     </Row>
   );

@@ -3,14 +3,16 @@ import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import "./app.css";
 
-const InfoPoint = styled.p`
+export const InfoPoint = styled.p`
   margin: 0% 8% 0% 8%;
-  color: dimgray;
+  //color: dimgray;
   text-align: justify;
   padding: 0px 0px 40px 0px;
+  font-family: "GeosansLight", sans-serif;
+  font-size: 1.25em;
 `;
 
-const AccentPoint = styled.h3`
+export const AccentPoint = styled.h3`
   margin: 0px;
   text-align: center;
   padding: 20px 0px 0px 0px;
@@ -19,7 +21,7 @@ const AccentPoint = styled.h3`
   font-weight: bold;
 `;
 
-const SpacerImage = styled.p`
+export const SpacerImage = styled.p`
   text-align: center;
   margin: 20px 0px 20px 0px;
   padding: 0px;
