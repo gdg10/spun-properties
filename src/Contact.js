@@ -13,9 +13,7 @@ const Contact = () => {
   return (
     <Row>
       <Col>
-        <a name="contact">
-          <ContactHeader>Contact:</ContactHeader>
-        </a>
+        <ContactHeader id='contact'>Contact:</ContactHeader>
         <p>For any inquires, contact Amy Bloom:</p>
         <p>
           <a href="amy@spundesign.com">amy@spundesign.com</a>

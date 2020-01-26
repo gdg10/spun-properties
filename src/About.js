@@ -28,10 +28,9 @@ const SpacerImage = styled.p`
 
 const About = () => {
   return (
-    <a name="about">
       <Row>
         <Col lg={4} md={6} sm={12}>
-          <AccentPoint>Fast Sales</AccentPoint>
+          <AccentPoint id="about">Fast Sales</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
           <InfoPoint>
             We work with Real Estate agents & home owners to make houses ready
@@ -59,11 +58,10 @@ const About = () => {
           </InfoPoint>
         </Col>
         <Col lg={12} md={12} sm={12}>
-          <AccentPoint>Featured Home</AccentPoint>
+          <AccentPoint id="properties">Featured Home</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
         </Col>
       </Row>
-    </a>
   );
 };
 

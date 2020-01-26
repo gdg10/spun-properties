@@ -24,16 +24,22 @@ const Description = styled.p`
   text-align: left;
 `;
 
-const Property = () => {
+interface PropertyProps {
+  price: number;
+  details: String;
+  address: String;
+  listingAgent: String;
+  description: String;
+}
+
+const Property: React.FC<PropertyProps> = props => {
   return (
     <React.Fragment>
       <Row>
         <Col sm={12} xs={12} md={9} lg={9}>
-          <a name="bushkill">
-            <PropertyImages />
-          </a>
+          <PropertyImages />
         </Col>
-        <Col Col sm={12} xs={12} md={3} lg={3}>
+        <Col sm={12} xs={12} md={3} lg={3}>
           <Price>$250,000</Price>
           <Details>3 bd | 1.5ba | 1,734 sqft | Active</Details>
           <Details>1508 Bushkill St, Easton, PA 18042</Details>
@@ -43,7 +49,7 @@ const Property = () => {
           </ButtonToolbar>
           <PropertyTable />
         </Col>
-        <Col Col sm={12} xs={12} md={12} lg={12}>
+        <Col sm={12} xs={12} md={12} lg={12}>
           <Description>
             Move-in ready, this newly renovated and updated classic colonial is
             located on a highly desirable, tree-lined side street. Some of the
