@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Property from "./Property";

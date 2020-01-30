@@ -1,10 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import styled from "styled-components";
 import "./app.css";
 import { AccentPoint, SpacerImage, InfoPoint } from "./About";
-
-const centeredParagraph = styled.p``;
 
 const Contact = () => {
   return (

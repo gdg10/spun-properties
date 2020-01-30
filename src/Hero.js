@@ -11,7 +11,7 @@ const HeroPic = styled.img`
 
 const Hero = () => {
   return (
-    <a name="hero">
+    <a href='#about'>
       <Row>
         <Col sm={12}>
           <HeroPic alt="hero" src={heroImg} />

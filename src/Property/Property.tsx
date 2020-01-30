@@ -60,7 +60,7 @@ const Property: React.FC<PropertyProps> = props => {
           <Details2>1508 Bushkill St, Easton, PA 18042</Details2>
           <a href="tel:484-951-2600">
             <ButtonToolbar>
-              <Button block={true} variant="primary">
+              <Button block={true} variant="primary" style={{backgroundColor: 'indigo', borderColor: 'indigo'}}>
                 Contact Agent
               </Button>
             </ButtonToolbar>
