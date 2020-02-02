@@ -9,12 +9,22 @@ const Contact = () => {
       <Col lg={12} md={12} sm={12}>
         <AccentPoint id="contact">Contact</AccentPoint>
         <SpacerImage>■■■</SpacerImage>
-        <InfoPoint style={{ textAlign: "center", fontFamily: "GeosansLight, sans-serif" }}>
-        For all inquires, contact Amy Bloom
-          <p>
-            <a href="amy@spundesign.com">amy@spundesign.com</a>{" "}|{" "}
-            <a href="tel:484-951-2600">484-951-2600</a>
-          </p>
+        <InfoPoint
+          style={{
+            textAlign: "center",
+            fontFamily: "GeosansLight, sans-serif"
+          }}
+        >
+          For all inquires, contact Amy Bloom
+        </InfoPoint>
+        <InfoPoint
+          style={{
+            textAlign: "center",
+            fontFamily: "GeosansLight, sans-serif"
+          }}
+        >
+          <a href="amy@spundesign.com">amy@spundesign.com</a> |{" "}
+          <a href="tel:484-951-2600">484-951-2600</a>
         </InfoPoint>
       </Col>
     </Row>

@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   font-family: "GeosansLight", sans-serif;
   font-weight: bold;
   font-size: 1.25em;
+  margin-bottom: 25px;
 `;
 
 const NavBar = () => {
@@ -17,16 +18,16 @@ const NavBar = () => {
         expand="lg"
         style={{ boxShadow: "0 1px 2px 0 rgba(0, 0, 0, 0.1)" }}
       >
-        <Navbar.Brand style={{ fontSize: "1.5em" }} href="#hero">
+        <Navbar.Brand style={{ fontSize: "1.5em" }} href="/">
           Spunproperties
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#properties">Featured</Nav.Link>
-            <Nav.Link href="#Active">Active</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/#about">About</Nav.Link>
+            <Nav.Link href="/#properties">Featured</Nav.Link>
+            <Nav.Link href="/#active">Active</Nav.Link>
+            <Nav.Link href="/#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

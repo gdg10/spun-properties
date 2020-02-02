@@ -6,27 +6,29 @@ import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
 
 export type SpunProperty = {
-  active: boolean;
-  archived: boolean;
-  featured: boolean;
-  address: string;
-  price: string;
-  details: string;
-  listingAgent: string;
-  listingAgentsPhone: string;
-  description: string;
-  cardImage: string;
-  imageGallery: string[];
+  route: string,
+  active: boolean,
+  archived: boolean,
+  featured: boolean,
+  address: string,
+  price: string,
+  details: string,
+  listingAgent: string,
+  listingAgentsPhone: string,
+  description: string,
+  cardImage: string,
+  imageGallery: string[]
 };
 
 const SpunProperties: SpunProperty[] = [
   {
+    route: '1508Bushkill',
     active: true,
     archived: false,
     featured: true,
     address: "1508 Bushkill St, Easton, PA 18042",
     price: "$250,000",
-    details: "$250,000 | 3 bd | 1.5 ba | 1,734 sq. ft.",
+    details: "3 bd | 1.5 ba | 1,734 sq. ft.",
     listingAgent: "Brendan Grube",
     listingAgentsPhone: "9083295619",
     description:
@@ -35,12 +37,13 @@ const SpunProperties: SpunProperty[] = [
     imageGallery: bushkillImages
   },
   {
+    route: '805Barnsdale',
     active: true,
     archived: false,
     featured: false,
     address: "805 Barnsdale Rd, Bethlehem, PA 18017",
     price: "$250,000",
-    details: "$389,000 | 4 bd | 3 ba | 2,314 sq. ft.",
+    details: "4 bd | 3 ba | 2,314 sq. ft.",
     listingAgent: "Michael Volpone",
     listingAgentsPhone: "5702691930",
     description: "",
@@ -48,12 +51,13 @@ const SpunProperties: SpunProperty[] = [
     imageGallery: barnsdaleImages
   },
   {
+    route: "3480River",
     active: true,
     archived: false,
     featured: false,
     address: "3480 River Rd, Mount Bethel, PA 18343",
     price: "$429,900",
-    details: "$429,900 | 3 bd | 2 ba | 1,200 sq. ft.",
+    details: "3 bd | 2 ba | 1,200 sq. ft.",
     listingAgent: "Alexis Geleta-Oakley",
     listingAgentsPhone: "610428-2952",
     description: "",
@@ -61,12 +65,13 @@ const SpunProperties: SpunProperty[] = [
     imageGallery: riverImages
   },
   {
+    route: "641Martins",
     active: true,
     archived: false,
     featured: false,
     address: "641 Martins Ln, Bethlehem, PA 18018",
     price: "$125,000",
-    details: "$125,000 | 3 bd | 1 ba | 820 sq. ft.",
+    details: "3 bd | 1 ba | 820 sq. ft.",
     listingAgent: "Eric Huber",
     listingAgentsPhone: "4843757592",
     description: "",
@@ -74,12 +79,13 @@ const SpunProperties: SpunProperty[] = [
     imageGallery: martinsImages
   },
   {
+    route: "1660Bobalew",
     active: true,
     archived: false,
     featured: false,
     address: "1660 Bobalew Trail Allentown, PA 18103",
     price: "$529,000",
-    details: "$529,000 | 4 bd | 2.5 ba | 5,764 sq. ft.",
+    details: "4 bd | 2.5 ba | 5,764 sq. ft.",
     listingAgent: "Eric Huber",
     listingAgentsPhone: "4843757592",
     description: "",

@@ -3,6 +3,7 @@ import { Row, Col, Card, Button } from "react-bootstrap";
 import "../app.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { SpunProperties, SpunProperty } from "../Property";
+import { Link } from "react-router-dom";
 
 const renderCard = (curProp: SpunProperty) => {
   if (curProp.active === false) {
@@ -13,7 +14,7 @@ const renderCard = (curProp: SpunProperty) => {
     <Col lg={4} md={6} sm={12}>
       <Card
         style={{
-          width: "20rem",
+          width: "18rem",
           display: "inline-block",
           textAlign: "left",
           marginBottom: "2rem"
@@ -22,13 +23,16 @@ const renderCard = (curProp: SpunProperty) => {
         <Card.Img variant="top" src={curProp.cardImage} />
         <Card.Body>
           <Card.Title>{curProp.address}</Card.Title>
-          <Card.Text>{curProp.details}</Card.Text>
-          <Button
-            variant="primary"
-            style={{ backgroundColor: "indigo", borderColor: "indigo" }}
-          >
-            Learn More
-          </Button>
+          <Card.Text>{ curProp.price + " | " + curProp.details}</Card.Text>
+          <Link to={"/" + curProp.route}>
+            {" "}
+            <Button
+              variant="primary"
+              style={{ backgroundColor: "indigo", borderColor: "indigo" }}
+            >
+              Learn More
+            </Button>
+          </Link>
         </Card.Body>
       </Card>
     </Col>
@@ -37,7 +41,7 @@ const renderCard = (curProp: SpunProperty) => {
 
 const sectionTitle = (
   <Col lg={12} md={12} sm={12}>
-    <AccentPoint id="Active">Active Listings</AccentPoint>
+    <AccentPoint id="active">Active Listings</AccentPoint>
     <SpacerImage>■■■</SpacerImage>
   </Col>
 );

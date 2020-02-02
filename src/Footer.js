@@ -5,7 +5,6 @@ import "./app.css";
 
 const Wrapper = styled.div`
   margin-top: 20px;
-  hieght: 60px;
   width: 100vw;
   background-color: grey;
   text-align: center;
@@ -20,11 +19,15 @@ const Footer = () => {
   return (
     <Wrapper>
       <Container>
+        <Row lg={12} md={12} sm={12}>
+          <Col style={{ height: "20px" }}></Col>
+        </Row>
         <Row>
           <Col style={{ textAlign: "left" }}>
             <a
               style={{ color: "white" }}
               href="https://www.spundesign.com"
+              // eslint-disable-next-line react/jsx-no-target-blank
               target="_blank"
             >
               Spundesign©
@@ -35,11 +38,15 @@ const Footer = () => {
             <a
               style={{ color: "white" }}
               href="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click"
+              // eslint-disable-next-line react/jsx-no-target-blank
               target="_blank"
             >
               Garrett Grube
             </a>
           </Col>
+        </Row>
+        <Row lg={12} md={12} sm={12}>
+          <Col style={{ height: "20px" }}></Col>
         </Row>
       </Container>
     </Wrapper>
