@@ -7,6 +7,7 @@ import Fade from "react-bootstrap/Fade";
 
 const Wrapper = styled.div`
   margin-bottom: 10px;
+  min-hieght: 100px;
 `;
 
 const SpinnerWrapper = styled.div``;
@@ -20,7 +21,7 @@ const spinnerStyle = {
 
 const Loading = (
   <SpinnerWrapper>
-    <Spinner animation="grow" variant="light" style={spinnerStyle} />
+    <Spinner animation="grow" variant="dark" style={spinnerStyle} />
   </SpinnerWrapper>
 );
 
