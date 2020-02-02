@@ -65,11 +65,11 @@ const HomePage: React.FC = () => {
     </React.Fragment>
   );
 };
-
+const goBackCopy = "< Back"
 const backToActiveProps = () => {
   return (
     <Row>
-      <Col><Link to='/#active'>back to Active Properties</Link></Col>
+      <Col style={{height:'40px'}}lg={12} md={12} sm={12}><Link to='/#active'>{goBackCopy}</Link></Col>
     </Row>
   )
 }
