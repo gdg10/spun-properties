@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col, ButtonToolbar, Button } from "react-bootstrap";
 import PropertyImages from "./PropertyImages";
-import PropertyTable from "./PropertyTable";
 import styled from "styled-components";
 import "../app.css";
 
@@ -76,7 +75,6 @@ const Property: React.FC<PropertyProps> = props => {
             patio and a large back yard for pets or gardening. Owner may help
             with closing costs.
           </Description>
-          {/* <PropertyTable /> */}
         </Col>
       </Row>
     </React.Fragment>
