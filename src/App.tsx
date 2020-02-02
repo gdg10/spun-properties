@@ -65,14 +65,16 @@ const HomePage: React.FC = () => {
     </React.Fragment>
   );
 };
-const goBackCopy = "< Back"
+const goBackCopy = "< Back";
 const backToActiveProps = () => {
   return (
     <Row>
-      <Col style={{height:'40px'}}lg={12} md={12} sm={12}><Link to='/#active'>{goBackCopy}</Link></Col>
+      <Col style={{ height: "40px" }} lg={12} md={12} sm={12}>
+        <Link to="/#active">{goBackCopy}</Link>
+      </Col>
     </Row>
-  )
-}
+  );
+};
 
 const App = () => {
   return (
@@ -94,7 +96,7 @@ const App = () => {
               />
             </Route>
             <Route path={"/" + SpunProperties[1].route} key="2_uni">
-            {backToActiveProps()}
+              {backToActiveProps()}
               <Property
                 price={SpunProperties[1].price}
                 details={SpunProperties[1].details}
@@ -106,7 +108,7 @@ const App = () => {
               />
             </Route>
             <Route path={"/" + SpunProperties[2].route} key="2_uni">
-            {backToActiveProps()}
+              {backToActiveProps()}
               <Property
                 price={SpunProperties[2].price}
                 details={SpunProperties[2].details}
@@ -118,7 +120,7 @@ const App = () => {
               />
             </Route>
             <Route path={"/" + SpunProperties[3].route} key="3_uni">
-            {backToActiveProps()}
+              {backToActiveProps()}
               <Property
                 price={SpunProperties[3].price}
                 details={SpunProperties[3].details}
@@ -130,7 +132,7 @@ const App = () => {
               />
             </Route>
             <Route path={"/" + SpunProperties[4].route} key="4_uni">
-            {backToActiveProps()}
+              {backToActiveProps()}
               <Property
                 price={SpunProperties[4].price}
                 details={SpunProperties[4].details}

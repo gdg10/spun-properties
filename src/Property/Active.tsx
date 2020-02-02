@@ -17,7 +17,8 @@ const renderCard = (curProp: SpunProperty) => {
           width: "18rem",
           display: "inline-block",
           textAlign: "left",
-          marginBottom: "2rem"
+          marginBottom: "2rem",
+          boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"
         }}
       >
         <Card.Img variant="top" src={curProp.cardImage} />
