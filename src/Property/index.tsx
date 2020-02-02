@@ -1,6 +1,9 @@
 import Property from "./Property";
 import bushkillImages from "./bushkill";
 import barnsdaleImages from "./barnsdale";
+import riverImages from "./river";
+import martinsImages from "./martins";
+import bobalewImgages from "./bobalew";
 
 export type SpunProperty = {
   active: boolean;
@@ -23,7 +26,7 @@ const SpunProperties: SpunProperty[] = [
     featured: true,
     address: "1508 Bushkill St, Easton, PA 18042",
     price: "$250,000",
-    details: "$250,000 | 3 bd | 1.5 ba | 1,734 sqft",
+    details: "$250,000 | 3 bd | 1.5 ba | 1,734 sq. ft.",
     listingAgent: "Brendan Grube",
     listingAgentsPhone: "9083295619",
     description:
@@ -34,16 +37,54 @@ const SpunProperties: SpunProperty[] = [
   {
     active: true,
     archived: false,
-    featured: true,
+    featured: false,
     address: "805 Barnsdale Rd, Bethlehem, PA 18017",
     price: "$250,000",
-    details: "$389,000 | 4 bd | 3 ba | 2,314 sqft",
+    details: "$389,000 | 4 bd | 3 ba | 2,314 sq. ft.",
     listingAgent: "Michael Volpone",
     listingAgentsPhone: "5702691930",
-    description:
-      "",
+    description: "",
     cardImage: barnsdaleImages[1],
     imageGallery: barnsdaleImages
+  },
+  {
+    active: true,
+    archived: false,
+    featured: false,
+    address: "3480 River Rd, Mount Bethel, PA 18343",
+    price: "$429,900",
+    details: "$429,900 | 3 bd | 2 ba | 1,200 sq. ft.",
+    listingAgent: "Alexis Geleta-Oakley",
+    listingAgentsPhone: "610428-2952",
+    description: "",
+    cardImage: riverImages[10],
+    imageGallery: riverImages
+  },
+  {
+    active: true,
+    archived: false,
+    featured: false,
+    address: "641 Martins Ln, Bethlehem, PA 18018",
+    price: "$125,000",
+    details: "$125,000 | 3 bd | 1 ba | 820 sq. ft.",
+    listingAgent: "Eric Huber",
+    listingAgentsPhone: "4843757592",
+    description: "",
+    cardImage: martinsImages[0],
+    imageGallery: martinsImages
+  },
+  {
+    active: true,
+    archived: false,
+    featured: false,
+    address: "1660 Bobalew Trail Allentown, PA 18103",
+    price: "$529,000",
+    details: "$529,000 | 4 bd | 2.5 ba | 5,764 sq. ft.",
+    listingAgent: "Eric Huber",
+    listingAgentsPhone: "4843757592",
+    description: "",
+    cardImage: bobalewImgages[0],
+    imageGallery: bobalewImgages
   }
 ];
 

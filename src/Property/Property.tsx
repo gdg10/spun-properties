@@ -54,7 +54,7 @@ const Property: React.FC<PropertyProps> = props => {
         </Col>
         <Col sm={12} xs={12} md={3} lg={3}>
           <Price>$250,000</Price>
-          <Details>3 bd | 1.5 ba | 1,734 sqft | Active</Details>
+          <Details>3 bd | 1.5 ba | 1,734 sq. ft. | Active</Details>
           <Details>Listing Agent: Brendan Grube</Details>
           <Details2>1508 Bushkill St, Easton, PA 18042</Details2>
           <a href="tel:484-951-2600">
