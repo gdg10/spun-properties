@@ -51,10 +51,10 @@ const Property: React.FC<PropertyProps> = props => {
   return (
     <React.Fragment>
       <Row>
-        <Col sm={12} xs={12} md={9} lg={9}>
+        <Col sm={12} xs={12} md={12} lg={9}>
           <PropertyImages propImages={props.propImages}/>
         </Col>
-        <Col sm={12} xs={12} md={3} lg={3}>
+        <Col sm={12} xs={12} md={12} lg={3}>
           <Price>{props.price}</Price>
           <Details>{props.details}</Details>
           <Details>Listing Agent: {props.listingAgent}</Details>
