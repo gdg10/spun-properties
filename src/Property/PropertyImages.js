@@ -27,7 +27,8 @@ export const Loading = (
 const PropertyImages = props => {
   const [loadCounter, setLoadCounter] = React.useState(1);
   return (
-    <Wrapper style={{ boxShadow: "0px 3px 15px rgba(0,0,0,0.1)" }}>
+    <Wrapper style={
+      { borderRadius: "20px", boxShadow: "0px 3px 15px rgba(0,0,0,0.1)" }}>
       {loadCounter < props.propImages.length && Loading}
       <Fade in={loadCounter >= props.propImages.length}>
         <Carousel dynamicHeight={true}>
