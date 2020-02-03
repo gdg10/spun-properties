@@ -18,15 +18,17 @@ const Wrapper = styled.div`
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
 `;
 
+const constHeight = "50px"
+
 const Footer = () => {
   return (
     <Wrapper style={{ boxShadow: "0 1px 2px 0 rgba(0, 0, 0, 1)" }}>
       <Container>
         <Row lg={12} md={12} sm={12}>
-          <Col style={{ height: "20px" }}></Col>
+          <Col style={{ height: constHeight }}></Col>
         </Row>
         <Row>
-          <Col style={{ textAlign: "left" }}>
+          <Col style={{ verticalAlign: "middle", textAlign: "left" }}>
             <a
               style={{ color: "white" }}
               href="https://www.spundesign.com"
@@ -36,7 +38,7 @@ const Footer = () => {
               Spundesign©
             </a>
           </Col>
-          <Col style={{ textAlign: "right" }}>
+          <Col style={{ verticalAlign: "middle", textAlign: "right" }}>
             Site by{" "}
             <a
               style={{ color: "white" }}
@@ -49,7 +51,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row lg={12} md={12} sm={12}>
-          <Col style={{ height: "20px" }}></Col>
+          <Col style={{ height: constHeight }}></Col>
         </Row>
       </Container>
     </Wrapper>
