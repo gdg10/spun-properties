@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 
 const Footer = () => {
   return (
-    <Wrapper>
+    <Wrapper style={{ boxShadow: "0 1px 2px 0 rgba(0, 0, 0, 1)" }}>
       <Container>
         <Row lg={12} md={12} sm={12}>
           <Col style={{ height: "20px" }}></Col>
