@@ -94,6 +94,7 @@ const App = () => {
                 propImages={SpunProperties[0].imageGallery}
                 listingAgentsPhone={SpunProperties[0].listingAgentsPhone}
               />
+              <Active />
             </Route>
             <Route path={"/" + SpunProperties[1].route} key="2_uni">
               {backToActiveProps()}
@@ -106,6 +107,7 @@ const App = () => {
                 propImages={SpunProperties[1].imageGallery}
                 listingAgentsPhone={SpunProperties[1].listingAgentsPhone}
               />
+              <Active />
             </Route>
             <Route path={"/" + SpunProperties[2].route} key="2_uni">
               {backToActiveProps()}
@@ -118,6 +120,7 @@ const App = () => {
                 propImages={SpunProperties[2].imageGallery}
                 listingAgentsPhone={SpunProperties[2].listingAgentsPhone}
               />
+              <Active />
             </Route>
             <Route path={"/" + SpunProperties[3].route} key="3_uni">
               {backToActiveProps()}
@@ -130,6 +133,7 @@ const App = () => {
                 propImages={SpunProperties[3].imageGallery}
                 listingAgentsPhone={SpunProperties[3].listingAgentsPhone}
               />
+              <Active />
             </Route>
             <Route path={"/" + SpunProperties[4].route} key="4_uni">
               {backToActiveProps()}
@@ -142,6 +146,7 @@ const App = () => {
                 propImages={SpunProperties[4].imageGallery}
                 listingAgentsPhone={SpunProperties[4].listingAgentsPhone}
               />
+              <Active />
             </Route>
             <Route path="/" key="0_uni">
               <HomePage />

@@ -48,6 +48,8 @@ interface PropertyProps {
 }
 
 const Property: React.FC<PropertyProps> = props => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
   return (
     <React.Fragment>
       <Row>
