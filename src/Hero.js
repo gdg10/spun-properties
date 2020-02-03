@@ -14,7 +14,7 @@ const Hero = () => {
     <a href='#about'>
       <Row>
         <Col sm={12}>
-          <HeroPic alt="hero" src={heroImg} style={{boxShadow: "0px 3px 15px rgba(0,0,0,0.3)"}}/>
+          <HeroPic alt="hero" src={heroImg} style={{borderRadius: "40px", boxShadow: "0px 3px 15px rgba(0,0,0,0.3)"}}/>
         </Col>
       </Row>
     </a>

@@ -16,6 +16,7 @@ const NavBar = () => {
       <Navbar
         bg="light"
         expand="lg"
+        min-height="0"
         style={{ boxShadow: "0px 3px 15px rgba(0,0,0,0.1)" }}
       >
         <Navbar.Brand style={{ fontSize: "1.5em" }} href="/">

@@ -65,7 +65,7 @@ const HomePage: React.FC = () => {
     </React.Fragment>
   );
 };
-const goBackCopy = "< Back";
+const goBackCopy = "< Home";
 const backToActiveProps = () => {
   return (
     <Row>
