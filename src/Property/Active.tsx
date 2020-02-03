@@ -4,8 +4,14 @@ import "../app.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { SpunProperties, SpunProperty } from "../Property";
 import { Link } from "react-router-dom";
+import { Loading } from "./PropertyImages";
+import Fade from "react-bootstrap/Fade";
 
-const renderCard = (curProp: SpunProperty) => {
+const renderCard = (
+  curProp: SpunProperty,
+  loadCounter: number,
+  setLoadCounter: React.Dispatch<React.SetStateAction<number>>
+) => {
   if (curProp.active === false) {
     return null;
   }
@@ -21,10 +27,19 @@ const renderCard = (curProp: SpunProperty) => {
           boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"
         }}
       >
-        <Card.Img variant="top" src={curProp.cardImage} />
+        {loadCounter < SpunProperties.length && Loading}
+        <Fade in={loadCounter >= 4}>
+          <Card.Img
+            variant="top"
+            src={curProp.cardImage}
+            onLoad={() => {
+              setLoadCounter(loadCounter + 1);
+            }}
+          />
+        </Fade>
         <Card.Body>
           <Card.Title>{curProp.address}</Card.Title>
-          <Card.Text>{ curProp.price + " | " + curProp.details}</Card.Text>
+          <Card.Text>{curProp.price + " | " + curProp.details}</Card.Text>
           <Link to={"/" + curProp.route}>
             {" "}
             <Button
@@ -48,11 +63,12 @@ const sectionTitle = (
 );
 
 const Active: React.FC = () => {
+  const [loadCounter, setLoadCounter] = React.useState(1);
   return (
     <Row style={{ textAlign: "center" }}>
       {sectionTitle}
       {SpunProperties.map(spunProp => {
-        return renderCard(spunProp);
+        return renderCard(spunProp, loadCounter, setLoadCounter);
       })}
     </Row>
   );

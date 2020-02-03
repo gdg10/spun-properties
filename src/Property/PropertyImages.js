@@ -7,28 +7,27 @@ import Fade from "react-bootstrap/Fade";
 
 const Wrapper = styled.div`
   margin-bottom: 10px;
-  min-hieght: 100px;
 `;
 
-const SpinnerWrapper = styled.div``;
+export const SpinnerWrapper = styled.div`
+  min-height: 200px;
+  background-color: gainsboro;
+`;
 
-const spinnerStyle = {
-  position: "absolute",
-  left: "50%",
-  top: "50%",
-  transform: "translate(-50%, -50%)"
+export const spinnerStyle = {
+  textAlign: "right"
 };
 
-const Loading = (
+export const Loading = (
   <SpinnerWrapper>
-    <Spinner animation="grow" variant="dark" style={spinnerStyle} />
+    <Spinner animation="grow" variant="light" style={spinnerStyle} />
   </SpinnerWrapper>
 );
 
 const PropertyImages = props => {
   const [loadCounter, setLoadCounter] = React.useState(1);
   return (
-    <Wrapper style={{boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"}}>
+    <Wrapper style={{ boxShadow: "0px 3px 15px rgba(0,0,0,0.1)" }}>
       {loadCounter < props.propImages.length && Loading}
       <Fade in={loadCounter >= props.propImages.length}>
         <Carousel dynamicHeight={true}>
