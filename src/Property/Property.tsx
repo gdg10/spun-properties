@@ -61,7 +61,7 @@ const Property: React.FC<PropertyProps> = props => {
           <Details2>{props.address}</Details2>
           <a href={"tel:" + props.listingAgentsPhone}>
             <ButtonToolbar>
-              <Button block={true} variant="primary" style={{backgroundColor: 'indigo', borderColor: 'indigo'}}>
+              <Button block={true} variant="primary" style={{backgroundColor: 'indigo', boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"}}>
                 Call Agent
               </Button>
             </ButtonToolbar>

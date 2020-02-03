@@ -44,7 +44,7 @@ const renderCard = (
             {" "}
             <Button
               variant="primary"
-              style={{ backgroundColor: "indigo", borderColor: "indigo" }}
+              style={{ backgroundColor: "indigo", borderColor: "indigo", boxShadow: "0px 3px 15px rgba(0,0,0,0.1)" }} 
             >
               Learn More
             </Button>
