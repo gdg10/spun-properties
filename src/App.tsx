@@ -66,10 +66,11 @@ const HomePage: React.FC = () => {
   );
 };
 const goBackCopy = "< Home";
+
 const backToActiveProps = () => {
   return (
     <Row>
-      <Col style={{ height: "40px" }} lg={12} md={12} sm={12}>
+      <Col style={{ height: "20px", marginBottom: "25px"}} lg={12} md={12} sm={12}>
         <Link to="/#active">{goBackCopy}</Link>
       </Col>
     </Row>
