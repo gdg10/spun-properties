@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import "./app.css";
+import { SocialIcon } from "react-social-icons";
 
 const Wrapper = styled.div`
   margin-top: 20px;
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
 `;
 
-const constHeight = "50px"
+const constHeight = "50px";
 
 const Footer = () => {
   return (
@@ -36,7 +37,7 @@ const Footer = () => {
               target="_blank"
             >
               Spundesign©
-            </a>
+            </a>{" "}<SocialIcon url="https://www.spundesign.com" style={{display: 'inline-block' , width: '25px', height:'25px'}}/>
           </Col>
           <Col style={{ verticalAlign: "middle", textAlign: "right" }}>
             Site by{" "}
@@ -47,7 +48,8 @@ const Footer = () => {
               target="_blank"
             >
               Garrett Grube
-            </a>
+            </a>{" "}
+            <SocialIcon url="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click" style={{display: 'inline-block', width: '25px', height:'25px'}}/>
           </Col>
         </Row>
         <Row lg={12} md={12} sm={12}>
