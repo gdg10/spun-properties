@@ -14,7 +14,7 @@ const Hero = () => {
   const [didMount, setDidMount] = React.useState(false);
   React.useEffect(() => {
     setDidMount(true);
-  });
+  }, []);
   return (
     <a href="#about">
       <Row>
