@@ -21,6 +21,6 @@
   },
   "include": [
     "src",
-    "react-social-icons"
+    "node_modules/react-social-icons"
   ]
 }
