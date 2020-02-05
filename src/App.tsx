@@ -7,13 +7,13 @@ import { Property } from "./Property";
 import Hero from "./Hero";
 import About from "./About";
 import Contact from "./Contact";
-//import Archived from './Property/Archived';
 import Active from "./Property/Active";
 import { Container, Row, Col } from "react-bootstrap";
 import "./app.css";
 import { SpunProperties, SpunProperty } from "./Property";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Archived from "./Property/Archived";
 
 const MasterWrapper = styled.div`
   background-color: white;
@@ -61,6 +61,7 @@ const HomePage: React.FC = () => {
       <About />
       {CreateFeaturedPropertyComponent(SpunProperties)}
       <Active />
+      <Archived />
       <Contact />
     </React.Fragment>
   );

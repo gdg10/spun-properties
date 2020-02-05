@@ -91,6 +91,20 @@ const SpunProperties: SpunProperty[] = [
     description: "",
     cardImage: bobalewImgages[0],
     imageGallery: bobalewImgages
+  },
+  {
+    route: "1660Bobalew",
+    active: false,
+    archived: true,
+    featured: false,
+    address: "1660 Bobalew Trail Allentown, PA 18103",
+    price: "$529,000",
+    details: "4 bd | 2.5 ba | 5,764 sq. ft.",
+    listingAgent: "Eric Huber",
+    listingAgentsPhone: "4843757592",
+    description: "",
+    cardImage: bobalewImgages[0],
+    imageGallery: bobalewImgages
   }
 ];
 
