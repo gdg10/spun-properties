@@ -6,22 +6,7 @@ import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
 import northImages from "./north";
 
-export type SpunProperty = {
-  route: string,
-  active: boolean,
-  archived: boolean,
-  featured: boolean,
-  address: string,
-  price: string,
-  details: string,
-  listingAgent: string,
-  listingAgentsPhone: string,
-  description: string,
-  cardImage: string,
-  imageGallery: string[]
-};
-
-const SpunProperties: SpunProperty[] = [
+const SpunProperties = [
   {
     route: '1508Bushkill',
     active: false,

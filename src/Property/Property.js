@@ -24,12 +24,6 @@ const Details2 = styled.p`
   //font-weight: bold;
 `;
 
-const DetailSmall = styled.p`
-  text-align: center;
-  // font-family: 'GeosansLight', sans-serif;
-  color: grey;
-`;
-
 const Description = styled.p`
   margin-top: 16px;
   text-align: justify;
@@ -37,17 +31,8 @@ const Description = styled.p`
   font-weight: bold;
 `;
 
-interface PropertyProps {
-  price: string;
-  details: string;
-  address: string;
-  listingAgent: string;
-  description: string;
-  propImages: string[];
-  listingAgentsPhone: string;
-}
 
-const Property: React.FC<PropertyProps> = props => {
+const Property = props => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
   return (

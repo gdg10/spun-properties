@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import Active from "./Property/Active";
 import { Container, Row, Col } from "react-bootstrap";
 import "./app.css";
-import { SpunProperties, SpunProperty } from "./Property";
+import { SpunProperties } from "./Property";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Archived from "./Property/Archived";
@@ -23,23 +23,15 @@ const conSty = {
   backgroundColor: "white"
 };
 
-const isActive = (sp: SpunProperty) => {
-  return sp.active === true;
-};
-
-const isArchived = (sp: SpunProperty) => {
-  return sp.archived === true;
-};
-
-const CreateFeaturedPropertyComponent = (sps: SpunProperty[]) => {
-  const isFeatured = (sp: SpunProperty) => {
+const CreateFeaturedPropertyComponent = (sps) => {
+  const isFeatured = (sp) => {
     return sp.featured === true;
   };
-  const ftProp: SpunProperty = sps.filter(isFeatured)[0];
+  const ftProp = sps.filter(isFeatured)[0];
   return CreatePropertyComponent(ftProp);
 };
 
-const CreatePropertyComponent = (sp: SpunProperty) => {
+const CreatePropertyComponent = (sp) => {
   console.log("called");
   return (
     <Property
@@ -54,7 +46,7 @@ const CreatePropertyComponent = (sp: SpunProperty) => {
   );
 };
 
-const HomePage: React.FC = () => {
+const HomePage = () => {
   return (
     <React.Fragment>
       <Hero />

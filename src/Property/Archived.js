@@ -2,15 +2,15 @@ import React from "react";
 import "../app.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { Row, Col, Card, Button } from "react-bootstrap";
-import { SpunProperties, SpunProperty } from "../Property";
+import { SpunProperties } from ".";
 import { Link } from "react-router-dom";
 import { Loading } from "./PropertyImages";
 import Fade from "react-bootstrap/Fade";
 
 const renderCard = (
-  curProp: SpunProperty,
-  loadCounter: number,
-  setLoadCounter: React.Dispatch<React.SetStateAction<number>>
+  curProp,
+  loadCounter,
+  setLoadCounter
 ) => {
   if (curProp.archived === false) {
     return null;
@@ -64,7 +64,7 @@ const sectionTitle = (
   </Col>
 );
 
-const Archived: React.FC = () => {
+const Archived = () => {
   const [loadCounter, setLoadCounter] = React.useState(1);
   return (
     <Row style={{ textAlign: "center" }}>
