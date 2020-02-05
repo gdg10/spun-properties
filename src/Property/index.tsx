@@ -4,6 +4,7 @@ import barnsdaleImages from "./barnsdale";
 import riverImages from "./river";
 import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
+import northImages from "./north";
 
 export type SpunProperty = {
   route: string,
@@ -91,6 +92,20 @@ const SpunProperties: SpunProperty[] = [
     description: "",
     cardImage: bobalewImgages[0],
     imageGallery: bobalewImgages
+  },
+  {
+    route: "1150North",
+    active: false,
+    archived: true,
+    featured: false,
+    address: "1150 North 28th Street Allentown, PA 18104",
+    price: "$309,900",
+    details: "4 bd | 2 ba | 2,737 sq. ft.",
+    listingAgent: "Lynn Zegalia",
+    listingAgentsPhone: "4847882394",
+    description: "Beautiful Single Home in Parkland School District! This 4 Bedroom, 2 ½ Bath Colonial is located on a great corner lot. Huge sunken Living Room with fireplace open to Dining Room. Spacious eat-in kitchen has granite countertops and new stainless appliances. Family room/den has access to rear yard. Hardwood floors throughout! Master Bedroom suite has sitting area with a fireplace, walk-in closet and full bath. Three other large bedrooms and full bath complete the second floor. Basement is partially finished. Entire house is freshly painted, new Light fixtures and new faucets in kitchen and baths. Great location close to shopping center, restaurants and major highways. This is a must see!",
+    cardImage: northImages[0],
+    imageGallery: northImages
   }
 ];
 

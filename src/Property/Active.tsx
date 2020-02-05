@@ -28,10 +28,11 @@ const renderCard = (
           borderRadius: "20px"
         }}
       >
-        {loadCounter < SpunProperties.length && Loading}
-        <Fade in={loadCounter >= 4}>
+        {loadCounter < 5 && Loading}
+        <Fade in={loadCounter >= 5}>
           <Card.Img
             variant="top"
+            height='175px'
             src={curProp.cardImage}
             onLoad={() => {
               setLoadCounter(loadCounter + 1);

@@ -32,6 +32,7 @@ const renderCard = (
         <Fade in={loadCounter >= 1}>
           <Card.Img
             variant="top"
+            height='175px'
             src={curProp.cardImage}
             onLoad={() => {
               setLoadCounter(loadCounter + 1);
