@@ -49,7 +49,7 @@ const Footer = () => {
               // eslint-disable-next-line react/jsx-no-target-blank
               target="_blank"
             >
-              Garrett Grube
+              Garrett
             </a>{" "}
             <SocialIcon url="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click" style={{display: 'inline-block', width: '25px', height:'25px'}}/>
           </Col>
